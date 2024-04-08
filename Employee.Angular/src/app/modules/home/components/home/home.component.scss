@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .blackish {
+    color: rgb(255, 255, 255);
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .btn {
+    padding: 0.85em 2em;
+    border-radius: 5px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  
+  #one {
+    min-height: 100vh;
+    background-image: linear-gradient(75deg, rgb(6 6 6 / 64%) 8%, transparent),
+    //   url("https://i.pinimg.com/564x/0e/6a/a1/0e6aa165ffaee67ad4aa6b56419eea89.jpg");
+    url("https://i.pinimg.com/564x/5b/19/29/5b1929cc99e725fe3c3b702004eb8d2e.jpg");
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .content {
+    padding-left: 5%;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 11rem 0;
+  }
+  
+  .text-content>h1 {
+    width: 440px;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+    line-height: 55px;
+  }
+  
+  .text-content>h4 {
+    font-size: 1.15rem;
+    letter-spacing: 0.35px;
+    font-weight: lighter;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 55px;
+  }
+  
+  .two-button {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .w-btn {
+    color: #1a2c79;
+  }
+  
+  .w-btn:hover {
+    background: transparent;
+    color: white;
+    border: 0.55px solid white;
+    transition: 0.55s;
+  }
+  
+  .t-btn {
+    background: transparent;
+    border: 0.55px solid white;
+    color: white;
+  }
+  
+  .t-btn:hover {
+    color: black;
+    background: white;
+    border: none;
+    transition: 0.55s;
+  }
+    
+  .goblack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #one-half {
+    padding: 7% 3% 7% 3%;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #one-half span>img {
+    width: 100%;
+  }
+  
+  .half__text>h1 {
+    padding: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .half__text p {
+    line-height: 25px;
+    font-size: 17px;
+    color: #707070;
+  }
+  
+  .half__boxes {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .box>h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+  }
+  
+  .box>p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #707070;
+  }
+  
+  .box span>i {
+    color: #f85a40;
+    font-size: 35px;
+    padding: 25px 0px 10px 0px;
+  }
+  
+  #business_about {
+    background: url(https://i.pinimg.com/564x/4e/b9/b0/4eb9b0a682388e4096ecfc22f52e8622.jpg) top fixed no-repeat;
+    // background: url(https://i.pinimg.com/736x/19/26/7b/19267bfd939c114bfdd58be76161cdf0.jpg) top fixed no-repeat;
+    color: black;
+    padding: 80px 3%;
+  }
+  
+  #business_about h1 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+  }
+  
+  @media screen and (min-width: 995px) {
+
+    .content {
+      padding-left: 10%;
+    }
+  
+    .text-content>h1 {
+      width: 540px;
+      font-size: 50px;
+      font-weight: 300;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 20px;
+      line-height: 55px;
+    }
+  
+    #one-half {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .half-content {
+      width: 40%;
+    }
+  
+    .half__boxes {
+      width: 100%;
+    }
+  
+    #one-half span>img {
+      width: 90%;
+      margin-left: auto;
+    }
+  
+    .half__text>h1 {
+      font-size: 37px;
+      font-weight: 600;
+    }
+  
+  }
+  
+  @media screen and (min-width: 575px) {
+  
+    #business_about h1 {
+      max-width: 700px;
+      font-size: 40px;
+    }
+  
+    #business_about {
+      padding-left: 10%;
+    }
+  }
