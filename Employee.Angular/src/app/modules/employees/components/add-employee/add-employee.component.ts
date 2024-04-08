@@ -45,7 +45,7 @@ export class AddEmployeeComponent implements OnInit {
   toggleShowPassword() {
     this.showPassword = !this.showPassword;
   }
-  
+
   addJob() {
     const jobGroup = this.fb.group({
       jobName: ['', Validators.required],

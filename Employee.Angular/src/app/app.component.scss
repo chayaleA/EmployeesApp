@@ -142,9 +142,9 @@ a {
 .share {
     justify-content: center;
     display: flex;
-  }
-  
-  .share div {
+}
+
+.share div {
     border-radius: 25px;
     background: #222222;
     width: 35px;
@@ -153,15 +153,15 @@ a {
     align-items: center;
     display: flex;
     justify-content: center;
-  }
-  
-  .share div:hover {
+}
+
+.share div:hover {
     background: #fafafa;
     color: #f85a40;
     transition: 0.75s;
     cursor: pointer;
-  }
-  
+}
+
 @media screen and (min-width: 995px) {
     #nav {
         display: flex;

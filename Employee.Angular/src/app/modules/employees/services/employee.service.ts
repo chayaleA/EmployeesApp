@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 
 @Injectable()
 export class EmployeeService {
-    
+
     constructor(private _http: HttpClient) {
     }
 
@@ -13,7 +13,7 @@ export class EmployeeService {
         const token = localStorage.getItem("accessToken");
         const headers = new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token 
+            'Authorization': 'Bearer ' + token
         });
         return this._http.get<Employee[]>("/api/Employee", { headers: headers });
     }
@@ -22,7 +22,7 @@ export class EmployeeService {
         const token = localStorage.getItem("accessToken");
         const headers = new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token 
+            'Authorization': 'Bearer ' + token
         });
         return this._http.get<Employee>(`/api/Employee/${employeeId}`, { headers: headers });
     }
@@ -31,7 +31,7 @@ export class EmployeeService {
         const token = localStorage.getItem("accessToken");
         const headers = new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token 
+            'Authorization': 'Bearer ' + token
         });
         return this._http.post<boolean>("/api/Employee/", employee, { headers: headers });
     }
@@ -40,7 +40,7 @@ export class EmployeeService {
         const token = localStorage.getItem("accessToken");
         const headers = new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token 
+            'Authorization': 'Bearer ' + token
         });
         return this._http.put<boolean>("/api/Employee/" + id, updateEmployee, { headers: headers });
     }
@@ -49,7 +49,7 @@ export class EmployeeService {
         const token = localStorage.getItem("accessToken");
         const headers = new HttpHeaders({
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + token 
+            'Authorization': 'Bearer ' + token
         });
         return this._http.delete<boolean>("/api/Employee/" + id, { headers: headers });
     }

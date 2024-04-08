@@ -13,7 +13,7 @@ export class Employee {
     status: Boolean;
     jobList: Job[];
 
-    constructor(firstName: string = "", lastName: string = "", password: string = "", idNumber: string = "", email:string = "",
+    constructor(firstName: string = "", lastName: string = "", password: string = "", idNumber: string = "", email: string = "",
         startWork: Date = null, birthDate: Date = null, gender: Gender = 1, status: Boolean = true, jobList: Job[] = []) {
         this.firstName = firstName;
         this.lastName = lastName;

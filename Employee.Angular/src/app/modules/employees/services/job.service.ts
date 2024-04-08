@@ -4,8 +4,8 @@ import { Observable } from "rxjs";
 import { Job } from "../models/job.model";
 
 @Injectable()
-export class JobService{
-    
+export class JobService {
+
     constructor(private _http: HttpClient) {
 
     }
@@ -26,7 +26,7 @@ export class JobService{
         return this._http.put<boolean>("/api/Job/" + id, updateJob);
     }
 
-    deleteJob(id: number) : Observable<boolean>{
+    deleteJob(id: number): Observable<boolean> {
         return this._http.delete<boolean>("/api/Job/" + id);
     }
 }

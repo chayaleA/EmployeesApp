@@ -8,13 +8,13 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 
 export class EmailDialogComponentComponent {
-  @Output() 
+  @Output()
   sendEmailEvent: EventEmitter<{ content: string, subject: string }>
-   = new EventEmitter<{ content: string, subject: string }>();
+    = new EventEmitter<{ content: string, subject: string }>();
 
   emailContent: string = '';
   emailSubject: string = ''
-  constructor(public dialogRef: MatDialogRef<EmailDialogComponentComponent>) {}
+  constructor(public dialogRef: MatDialogRef<EmailDialogComponentComponent>) { }
 
   sendEmail() {
     const emailData = { content: this.emailContent, subject: this.emailSubject };

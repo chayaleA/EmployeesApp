@@ -10,13 +10,13 @@ import Swal from 'sweetalert2';
   styleUrls: ['./employee-card.component.scss']
 })
 export class EmployeeCardComponent {
-  
+
   @Input()
   employeeToShow: Employee;
 
   @Output()
   deleteEmployeeEvent = new EventEmitter<number>();
-  
+
   constructor(private _router: Router) {
 
   }
