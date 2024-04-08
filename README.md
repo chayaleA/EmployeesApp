@@ -74,45 +74,44 @@ Before you begin, make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-    ```sh
+    ```
    git clone https://github.com/chayaleA/EmployeesApp.git
    ```
     
 4. Navigate to the client directory:
-   ```sh
+   ```
    cd Project-Name/client
    ```
 5. Install Angular dependencies:
-   ```js
+   ```
    npm install
    ```
 6. Navigate to the server directory:
-   ```js
+   ```
    cd ../server
    ```
 7. Restore NuGet packages:
-   ```js
+   ```
    dotnet restore
    ```
 
 Set up the database:
-1. 
-- Create a new SQL Server database.
-- Update the connection string in the appsettings.json file with your SQL Server database details.
+  - Create a new SQL Server database.
+  - Update the connection string in the appsettings.json file with your SQL Server database details.
 
-2. Run the migrations to create the database schema:
+1. Run the migrations to create the database schema:
    ```js
    dotnet ef database update
    ```
-3. Start the server:
+2. Start the server:
    ```js
    dotnet run
    ```
-4. Navigate back to the client directory:
+3. Navigate back to the client directory:
    ```js
    cd ../client
    ```
-5. Start the Angular development server:
+4. Start the Angular development server:
    ```js
    ng serve
    ```
