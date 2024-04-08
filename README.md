@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # BUSINESS Application
 ![home page](https://github.com/chayaleA/EmployeesApp/assets/150287616/16a5fd97-4355-4e17-92fb-ed3aea6fb0dc)
 
@@ -21,6 +23,7 @@ The BUSINESS application is designed to provide advanced solutions for businesse
 - View employees in a table or card format.
 - Add, edit, or delete individual employees.
 - Upload Excel file to add multiple employees.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- EMAIL NOTIFICATIONS -->
 ## Email Notifications
@@ -40,7 +43,7 @@ The BUSINESS application is designed to provide advanced solutions for businesse
 ## Security
 - Only administrators can access and manage employee data.
 - User authentication required for accessing the application.
-
+<a name="security"></a> 
 
 ## Technologies Used
 
