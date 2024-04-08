@@ -1,4 +1,4 @@
-namespace EmployeeServer.Models
+﻿namespace EmployeeServer.Models
 {
     public class EmailModel
     {
