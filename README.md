@@ -56,11 +56,68 @@ The BUSINESS application is designed to provide advanced solutions for businesse
 <!-- SETUP INSTRUCTIONS -->
 ## Setup Instructions
 
-1. Clone the repository.
-2. Install dependencies for frontend and backend.
-3. Configure database connection settings.
-4. Set up Gmail API credentials for sending emails.
-5. Run the application.
+This guide will walk you through setting up the project locally. Follow these steps to get a local copy up and running.
+
+### Prerequisites
+
+Before you begin, make sure you have the following installed:
+- Node.js and npm. You can install them from here.
+- Angular CLI. You can install it globally using npm with the following command:
+  
+  ```sh
+  npm install -g @angular/cli
+  ```
+
+- NET Core SDK. You can download and install it.
+- SQL Server. You can download and install the Developer edition.
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+   git clone https://github.com/chayaleA/EmployeesApp.git
+   ```
+    
+4. Navigate to the client directory:
+   ```sh
+   cd Project-Name/client
+   ```
+5. Install Angular dependencies:
+   ```js
+   npm install
+   ```
+6. Navigate to the server directory:
+   ```js
+   cd ../server
+   ```
+7. Restore NuGet packages:
+   ```js
+   dotnet restore
+   ```
+
+Set up the database:
+1. 
+- Create a new SQL Server database.
+- Update the connection string in the appsettings.json file with your SQL Server database details.
+
+2. Run the migrations to create the database schema:
+   ```js
+   dotnet ef database update
+   ```
+3. Start the server:
+   ```js
+   dotnet run
+   ```
+4. Navigate back to the client directory:
+   ```js
+   cd ../client
+   ```
+5. Start the Angular development server:
+   ```js
+   ng serve
+   ```
+Open your web browser and navigate to http://localhost:4200 to view the application.
+Now you have the project set up locally and ready for development.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USEAGE -->
