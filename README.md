@@ -85,6 +85,8 @@ The BUSINESS application is designed to provide advanced solutions for businesse
    
 Here are some screenshots demonstrating how to perform specific actions in the application:
 
+<a name="screenshots"></a>
+
 <details>
   <summary>screenshots</summary>
   <ol>
@@ -107,6 +109,8 @@ Here are some screenshots demonstrating how to perform specific actions in the a
 Enter your email address in the box in the footer and you will receive email updates on new company developments.
 ![image](https://github.com/chayaleA/EmployeesApp/assets/150287616/b34f311e-feab-4163-b170-64374bff0cf0)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- EMPLOYEE VIEW -->
 ### Employee view
 You can see the employees either in tabular form or in cards according to the icon above the list.
@@ -117,6 +121,8 @@ To display as cards:
 To display as a table:
 ![tabular](https://github.com/chayaleA/EmployeesApp/assets/150287616/f06f9d48-e1b3-4c74-9229-fb06ea6930e3)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- DELETING AN EMPLOYEE -->
 ### Deleting an Employee
 Delete an employee Click on the deletion icon in the last column of the employee's details in the table.
@@ -126,6 +132,8 @@ Delete an employee Click on the deletion icon in the last column of the employee
 If you are in the view of employee cards, you can skim over the card and receive the editing and deletion operations.
 ![Delete employee](https://github.com/chayaleA/EmployeesApp/assets/150287616/ab062b1c-fe62-454c-a725-552e344641ec)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- EDITING AN EMPLOYEE -->
 ### Editing an employee
 To edit an employee, click on the edit icon in the one column before the last of the employee's details in the table.
@@ -134,6 +142,8 @@ To edit an employee, click on the edit icon in the one column before the last of
 
 In the form that opens, update the employee's details as you wish.
 ![update](https://github.com/chayaleA/EmployeesApp/assets/150287616/9cc239f2-b71a-4560-b7f9-80d94580f1b7)
+
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
 
 <!-- ADD AN EMPLOYEE -->
 ### Add an employee.
@@ -165,6 +175,8 @@ Click the Import Employees File button.
 
 Select an Excel file from the computer that contains a list of employees, it is mandatory to fill in all the mandatory details except email and a list of positions, the name of the title is important, you can export an Excel file and according to its titles import a new Excel file
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- SEARCH -->
 ### Search
 You can search for an employee easily, enter the details of the employee you want to search for in the search box.
@@ -173,10 +185,14 @@ You can search for an employee easily, enter the details of the employee you wan
 If you search for an employee that does not exist, a notification will be displayed
 ![search](https://github.com/chayaleA/EmployeesApp/assets/150287616/7a253ed2-fdee-44f0-baca-9ecc6e67c626)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- EXPORTING THE EMPLOYEE TO AN EXCEL TABLE -->
 ### Exporting the employees to an Excel table
 To export the list of employees, click on the Excel icon and get Excel with the employees' information on your computer.
 ![export](https://github.com/chayaleA/EmployeesApp/assets/150287616/8756cded-ce04-4bb3-85fe-a262cb52a085)
+
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
 
 <!-- PRINTING THE LIST OF EMPLOYEES -->
 ## Printing the list of employees
@@ -185,6 +201,8 @@ To print the list of employees click on the print icon.
 
 In the window that opens, select the options that suit you and send to print.
 ![print](https://github.com/chayaleA/EmployeesApp/assets/150287616/96798aed-5980-43c0-ad14-1e8b7e0b9cb9)
+
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
 
 <!-- SENDING EMAIL NOTIFICATIONS -->
 ### Sending Email Notifications
@@ -196,17 +214,23 @@ In the window that opens, enter a subject and content and click the send button.
 
 ![Email Content](https://github.com/chayaleA/EmployeesApp/assets/150287616/3c587027-1c2e-41fe-ac18-432e197f5dac)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- RESPONSIVENESS -->
 ### Responsiveness
 You can display the application even on a small screen and the display will change accordingly.
 For example:
 ![sign up](https://github.com/chayaleA/EmployeesApp/assets/150287616/a02f0e60-b374-4c5b-981b-f044e73a0ae9)
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- NAVIGATION TO PAGE DOES NOT EXIST -->
 ### Navigation to page does not exist
 In case you navigate to a page that does not exist, you will receive a 404 error.
 
 ![Page not found](https://github.com/chayaleA/EmployeesApp/assets/150287616/87a14a52-e8f0-40fb-ba18-38f59197d8ab)
+
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
 
 ## License
 
