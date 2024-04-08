@@ -1,14 +1,53 @@
-Employee Management Application
-Overview:
-This application is built with Angular and focuses on managing employees within a company. The application provides a user-friendly interface that allows users to perform various actions on employees, including adding, editing, and deleting records.
+# BUSINESS Application
 
-Features and Functionality:
-Add Employees: You can add a new employee to the system by filling out the employee addition form and saving the details. Bulk Employee Addition via Excel: There is an option to add employees in bulk by reading an Excel file containing employee records and saving them in the system. Edit Employee: You can edit the details of existing employees in the system and save the changes. Delete Employee: You can delete employees from the system by selecting them and confirming the deletion. Send Email to All Employees: There is an option to send an email to all employees in the system with any desired message.
+## Description
 
-Installation and Running:
-Install Dependencies: Before running the application, you need to install all required dependencies using npm. You can install dependencies by running the following command:
+The BUSINESS application is designed to provide advanced solutions for businesses, including employee management and updates on company developments. Users can sign up for notifications and updates by entering their email on the home page. The application manages employees efficiently through a user-friendly display of employee data in either table or card format. Users can add, edit, or delete employees individually, or upload an Excel file to add multiple employees at once. Additionally, there's a feature to send emails to all employees directly from the application. Security measures are implemented to ensure that only administrators can access and utilize the employee management functionalities. Users are required to log in with their username and password on the login page.
 
-Copy code
-npm install Running the Application: After installing dependencies, you can run the application using the following command:
+## Features
 
-arduino Copy code ng serve --open Usage: For each of the described functionalities above, there are buttons or menus accessible in the user interface. You can use the functionalities by clicking on the corresponding buttons and filling out the forms that appear. Notes: Please ensure the validity and completeness of the data entered into the application before saving or performing actions. Any changes made to the existing database through the application will affect the existing data and should be handled with care. Feel free to customize the description and instructions according to your specific implementation.
+- **Employee Management:**
+  - View employees in a table or card format.
+  - Add, edit, or delete individual employees.
+  - Upload Excel file to add multiple employees.
+- **Email Notifications:**
+  - Sign up for updates by entering email.
+  - Send emails to all employees.
+- **Export and Print:**
+  - Export employee list to Excel file.
+  - Print employee list.
+- **Search Functionality:**
+  - Easily search for employees.
+- **Security:**
+  - Only administrators can access and manage employee data.
+  - User authentication required for accessing the application.
+
+## Technologies Used
+
+- **Frontend:** Angular
+- **Backend:** ASP.NET with Model-View-Controller (MVC) architecture
+- **Authentication:** JSON Web Tokens (JWT)
+- **Database:** SQL Server
+- **Integration:** Gmail API for sending emails
+
+## Setup Instructions
+
+1. Clone the repository.
+2. Install dependencies for frontend and backend.
+3. Configure database connection settings.
+4. Set up Gmail API credentials for sending emails.
+5. Run the application.
+
+## Usage
+
+1. Navigate to the login page.
+2. Enter your username and password to access the application.
+3. Use the various features such as employee management, email notifications, export/print, and search.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributors
+
+Chayale Avramovitz
