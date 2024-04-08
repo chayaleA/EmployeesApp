@@ -8,9 +8,9 @@
   <ol>
     <li><a href="#description">Description</a></li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#setup Instructions">Export and Print</a></li>
-    <li><a href="#usage">Search Functionality</a></li>
-    <li><a href="#license">Security</a></li>
+    <li><a href="#setup instructions">Setup Instructions</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#developers">Developers</a></li>
   </ol>
 </details>
