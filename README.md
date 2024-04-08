@@ -94,7 +94,13 @@ Here are some screenshots demonstrating how to perform specific actions in the a
     <li><a href="#employee-view">Employee view</a></li>
     <li><a href="#deleting-an-employee">Deleting an Employee</a></li>
     <li><a href="#editing-an-employee">Editing an employee</a></li>
-    <li><a href="#add-an-employee">Add an employee</a></li>
+    <li>
+      <a href="#add-an-employee">Add an employee</a>
+      <ul>
+         <li><a href="#adding-a-single-employee">Adding a single employee</a></li>
+         <li><a href="#importing-employees-from-excel">Importing employees from Excel</a></li>
+      </ul>
+    </li>
     <li><a href="#search">Search</a></li>
     <li><a href="#exporting-the-employees-to-an-excel-table">Exporting the employees to an Excel table</a></li>
     <li><a href="#printing-the-list-of-employees">Printing the list of employees</a></li>
@@ -148,7 +154,9 @@ In the form that opens, update the employee's details as you wish.
 <!-- ADD AN EMPLOYEE -->
 ### Add an employee.
 You can add a single employee or import several employees from Excel.
-- **Adding a single employee:**
+
+<!-- ADDING A SINGLE EMPLOYEE -->
+#### Adding a single employee:
 Click the Add icon.
 ![add](https://github.com/chayaleA/EmployeesApp/assets/150287616/e1124b0d-fb46-4924-9a69-01de7a9a50f8)
 
@@ -168,7 +176,8 @@ Note:
 - It is not possible to select a position for an employee twice.
 - The job start date cannot be before the work start date.
 
-- **Importing employees from Excel:**
+<!-- IMPORTING EMPLOYEES FROM EXCEL -->
+#### Importing employees from Excel:
 
 Click the Import Employees File button.
 ![import](https://github.com/chayaleA/EmployeesApp/assets/150287616/ff6f7f9b-cca0-407f-9057-e7572ec7ecc7)
