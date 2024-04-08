@@ -4,7 +4,7 @@
 ![home page](https://github.com/chayaleA/EmployeesApp/assets/150287616/16a5fd97-4355-4e17-92fb-ed3aea6fb0dc)
 
 <details>
-  <summary>Features</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li><a href="#description">Description</a></li>
     <li><a href="#features">Features</a></li>
