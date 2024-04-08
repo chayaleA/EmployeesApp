@@ -10,7 +10,10 @@ namespace EmployeeServer.Models
 
         public string Password { get; set; }
 
+
         public string IdNumber { get; set; }
+
+        public string Email { get; set; }
 
         public DateTime StartWork { get; set; }
 

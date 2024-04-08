@@ -20,6 +20,8 @@ namespace Solid.Core.Entities
 
         public string IdNumber { get; set; }
 
+        public string Email { get; set; }
+
         public DateTime StartWork { get; set; }
 
         public DateTime BirthDate { get; set; }
