@@ -3,51 +3,46 @@
 # BUSINESS Application
 ![home page](https://github.com/chayaleA/EmployeesApp/assets/150287616/16a5fd97-4355-4e17-92fb-ed3aea6fb0dc)
 
-## Description
-
-The BUSINESS application is designed to provide advanced solutions for businesses, including employee management and updates on company developments. Users can sign up for notifications and updates by entering their email on the home page. The application manages employees efficiently through a user-friendly display of employee data in either table or card format. Users can add, edit, or delete employees individually, or upload an Excel file to add multiple employees at once. Additionally, there's a feature to send emails to all employees directly from the application. Security measures are implemented to ensure that only administrators can access and utilize the employee management functionalities. Users are required to log in with their username and password on the login page.
-
 <details>
   <summary>Features</summary>
   <ol>
-    <li><a href="#employee-management">Employee Management</a></li>
-    <li><a href="#email-notifications">Email Notifications</a></li>
-    <li><a href="#export-and-print">Export and Print</a></li>
-    <li><a href="#search-functionality">Search Functionality</a></li>
-    <li><a href="#security">Security</a></li>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#setup Instructions">Export and Print</a></li>
+    <li><a href="#usage">Search Functionality</a></li>
+    <li><a href="#license">Security</a></li>
+    <li><a href="#developers">Developers</a></li>
   </ol>
 </details>
 
-<!-- EMPLOYEE MANAGEMENT -->
-## Employee Management
-- View employees in a table or card format.
-- Add, edit, or delete individual employees.
-- Upload Excel file to add multiple employees.
+<!-- DESCRIPTION -->
+## Description
+
+The BUSINESS application is designed to provide advanced solutions for businesses, including employee management and updates on company developments. Users can sign up for notifications and updates by entering their email on the home page. The application manages employees efficiently through a user-friendly display of employee data in either table or card format. Users can add, edit, or delete employees individually, or upload an Excel file to add multiple employees at once. Additionally, there's a feature to send emails to all employees directly from the application. Security measures are implemented to ensure that only administrators can access and utilize the employee management functionalities. Users are required to log in with their username and password on the login page.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- EMAIL NOTIFICATIONS -->
-## Email Notifications
-- Sign up for updates by entering email.
-- Send emails to all employees.
+<!-- FEATURES -->
+## Features
+
+- **Employee Management:**
+  - View employees in a table or card format.
+  - Add, edit, or delete individual employees.
+  - Upload Excel file to add multiple employees.
+- **Email Notifications:**
+  - Sign up for updates by entering email.
+  - Send emails to all employees.
+- **Export and Print:**
+  - Export employee list to Excel file.
+  - Print employee list.
+- **Search Functionality:**
+  - Easily search for employees.
+- **Security:**
+  - Only administrators can access and manage employee data.
+  - User authentication required for accessing the application.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- EXPORT AND PRINT -->
-## Export and Print
-- Export employee list to Excel file.
-- Print employee list.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SEARCH FUNCTIONALITY -->
-## Search Functionality
-- Easily search for employees.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SECURITY -->
-## Security
-- Only administrators can access and manage employee data.
-- User authentication required for accessing the application.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- TECHNOLOGIES USED -->
 ## Technologies Used
 
 - **Frontend:** Angular
@@ -56,6 +51,9 @@ The BUSINESS application is designed to provide advanced solutions for businesse
 - **Database:** SQL Server
 - **Integration:** Gmail API for sending emails
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SETUP INSTRUCTIONS -->
 ## Setup Instructions
 
 1. Clone the repository.
@@ -63,7 +61,9 @@ The BUSINESS application is designed to provide advanced solutions for businesse
 3. Configure database connection settings.
 4. Set up Gmail API credentials for sending emails.
 5. Run the application.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- USEAGE -->
 ## Usage
 
 1. Navigate to the login page.
@@ -176,6 +176,8 @@ Note:
 - It is not possible to select a position for an employee twice.
 - The job start date cannot be before the work start date.
 
+<p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
+
 <!-- IMPORTING EMPLOYEES FROM EXCEL -->
 #### Importing employees from Excel:
 
@@ -241,10 +243,17 @@ In case you navigate to a page that does not exist, you will receive a 404 error
 
 <p align="right">(<a href="#screenshots">back to screenshots</a>)</p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 ## License
 
 This project is licensed under the MIT License.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- DEVELOPERS -->
 ## Developers
 
 Chayale Avramovitz
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
