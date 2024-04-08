@@ -5,23 +5,42 @@
 
 The BUSINESS application is designed to provide advanced solutions for businesses, including employee management and updates on company developments. Users can sign up for notifications and updates by entering their email on the home page. The application manages employees efficiently through a user-friendly display of employee data in either table or card format. Users can add, edit, or delete employees individually, or upload an Excel file to add multiple employees at once. Additionally, there's a feature to send emails to all employees directly from the application. Security measures are implemented to ensure that only administrators can access and utilize the employee management functionalities. Users are required to log in with their username and password on the login page.
 
-## Features
+<details>
+  <summary>Features</summary>
+  <ol>
+    <li><a href="#employee-management">Employee Management</a></li>
+    <li><a href="#email-notifications">Email Notifications</a></li>
+    <li><a href="#export-and-print">Export and Print</a></li>
+    <li><a href="#search-functionality">Search Functionality</a></li>
+    <li><a href="#security">Security</a></li>
+  </ol>
+</details>
 
-- **Employee Management:**
-  - View employees in a table or card format.
-  - Add, edit, or delete individual employees.
-  - Upload Excel file to add multiple employees.
-- **Email Notifications:**
-  - Sign up for updates by entering email.
-  - Send emails to all employees.
-- **Export and Print:**
-  - Export employee list to Excel file.
-  - Print employee list.
-- **Search Functionality:**
-  - Easily search for employees.
-- **Security:**
-  - Only administrators can access and manage employee data.
-  - User authentication required for accessing the application.
+<!-- EMPLOYEE MANAGEMENT -->
+## Employee Management
+- View employees in a table or card format.
+- Add, edit, or delete individual employees.
+- Upload Excel file to add multiple employees.
+
+<!-- EMAIL NOTIFICATIONS -->
+## Email Notifications
+- Sign up for updates by entering email.
+- Send emails to all employees.
+
+<!-- EXPORT AND PRINT -->
+## Export and Print
+- Export employee list to Excel file.
+- Print employee list.
+
+<!-- SEARCH FUNCTIONALITY -->
+## Search Functionality
+- Easily search for employees.
+
+<!-- SECURITY -->
+## Security
+- Only administrators can access and manage employee data.
+- User authentication required for accessing the application.
+
 
 ## Technologies Used
 
