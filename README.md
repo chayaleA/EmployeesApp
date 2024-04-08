@@ -125,7 +125,7 @@ Now you have the project set up locally and ready for development.
 1. Navigate to the login page.
    ![Connect](https://github.com/chayaleA/EmployeesApp/assets/150287616/08a65b35-2cd3-4b2b-9b87-1a3192c53f96)
 
-3. Enter your username and password to access the application.
+3. Enter your username and password to access the application. (Username = Admin, Password = 123456)
 
    ![Login](https://github.com/chayaleA/EmployeesApp/assets/150287616/705c9092-ba36-47d2-9f96-a1bf2c616df7)
    
