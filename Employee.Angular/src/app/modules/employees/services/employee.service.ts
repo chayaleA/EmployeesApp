@@ -15,7 +15,7 @@ export class EmployeeService {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         });
-        return this._http.get<Employee[]>("/api/Employee", { headers: headers });
+        return this._http.get<Employee[]>("https://employees-net.onrender.com/api/Employee", { headers: headers });
     }
 
     getEmplyeeById(employeeId: string): Observable<Employee> {
@@ -24,7 +24,7 @@ export class EmployeeService {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         });
-        return this._http.get<Employee>(`/api/Employee/${employeeId}`, { headers: headers });
+        return this._http.get<Employee>(`https://employees-net.onrender.com/api/Employee/${employeeId}`, { headers: headers });
     }
 
     addEmployee(employee: Employee): Observable<boolean> {
@@ -33,7 +33,7 @@ export class EmployeeService {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         });
-        return this._http.post<boolean>("/api/Employee/", employee, { headers: headers });
+        return this._http.post<boolean>("https://employees-net.onrender.com/api/Employee/", employee, { headers: headers });
     }
 
     updateEmployee(updateEmployee: Employee, id: number): Observable<boolean> {
@@ -42,7 +42,7 @@ export class EmployeeService {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         });
-        return this._http.put<boolean>("/api/Employee/" + id, updateEmployee, { headers: headers });
+        return this._http.put<boolean>("https://employees-net.onrender.com/api/Employee/" + id, updateEmployee, { headers: headers });
     }
 
     deleteEmployee(id: number): Observable<boolean> {
@@ -51,6 +51,6 @@ export class EmployeeService {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token
         });
-        return this._http.delete<boolean>("/api/Employee/" + id, { headers: headers });
+        return this._http.delete<boolean>("https://employees-net.onrender.com/api/Employee/" + id, { headers: headers });
     }
 }

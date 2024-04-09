@@ -30,7 +30,7 @@ export class AuthGuardService implements CanActivate {
       });
 
       try {
-        await this._http.get("/api/Auth", { headers: headers }).toPromise();
+        await this._http.get("https://employees-net.onrender.com/api/Auth", { headers: headers }).toPromise();
         return true;
       } catch (err) {
         if (err.status === 401) {

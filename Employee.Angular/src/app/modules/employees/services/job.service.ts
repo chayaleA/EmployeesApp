@@ -11,22 +11,22 @@ export class JobService {
     }
 
     getAllJobs(): Observable<Job[]> {
-        return this._http.get<Job[]>("/api/Job");
+        return this._http.get<Job[]>("https://employees-net.onrender.com/api/Job");
     }
 
     getJobById(jobId: string): Observable<Job> {
-        return this._http.get<Job>(`/api/Job/${jobId}`);
+        return this._http.get<Job>(`https://employees-net.onrender.com/api/Job/${jobId}`);
     }
 
     addJob(job: Job): Observable<boolean> {
-        return this._http.post<boolean>("/api/Job/", job);
+        return this._http.post<boolean>("https://employees-net.onrender.com/api/Job/", job);
     }
 
     updateJob(updateJob: Job, id: string): Observable<boolean> {
-        return this._http.put<boolean>("/api/Job/" + id, updateJob);
+        return this._http.put<boolean>("https://employees-net.onrender.com/api/Job/" + id, updateJob);
     }
 
     deleteJob(id: number): Observable<boolean> {
-        return this._http.delete<boolean>("/api/Job/" + id);
+        return this._http.delete<boolean>("https://employees-net.onrender.com/api/Job/" + id);
     }
 }
