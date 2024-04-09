@@ -110,5 +110,7 @@ app.UseCors("MyPolicy");
 app.UseTrack();
 
 app.MapControllers();
+
 app.MapGet("/", () => "EmployeeServer API is running!");
+
 app.Run();
