@@ -82,38 +82,13 @@ And it should be noted that because the server is in the cloud, the readings are
     
 4. Navigate to the client directory:
    ```
-   cd Project-Name/client
+   cd EmployeesApp/Employee.Angular
    ```
 5. Install Angular dependencies:
    ```
    npm install
    ```
-6. Navigate to the server directory:
-   ```
-   cd ../server
-   ```
-7. Restore NuGet packages:
-   ```
-   dotnet restore
-   ```
-
-Set up the database:
-  - Create a new SQL Server database.
-  - Update the connection string in the appsettings.json file with your SQL Server database details.
-
-1. Run the migrations to create the database schema:
-   ```js
-   dotnet ef database update
-   ```
-2. Start the server:
-   ```js
-   dotnet run
-   ```
-3. Navigate back to the client directory:
-   ```js
-   cd ../client
-   ```
-4. Start the Angular development server:
+6. Start the Angular development server:
    ```js
    ng serve
    ```
