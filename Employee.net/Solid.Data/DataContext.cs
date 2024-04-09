@@ -25,10 +25,10 @@ namespace Solid.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //MySql
-            //optionsBuilder.UseMySQL(_configuration["ConnectionString"]);
+            optionsBuilder.UseMySQL(_configuration["ConnectionString"]);
 
             //Sql
-            optionsBuilder.UseSqlServer(_configuration["ConnectionString"]);
+            //optionsBuilder.UseSqlServer(_configuration["ConnectionString"]);
             optionsBuilder.LogTo((message) => Debug.WriteLine(message));
         }
     }
