@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
       From today we will update you with all the most important updates!
       Business.Employees/>`
     }
-    return this.http.post('/api/Gmail/sendEmail', emailData).subscribe(res => {
+    return this.http.post('https://employeesapp-8ise.onrender.com/api/Gmail/sendEmail', emailData).subscribe(res => {
     }, err => {
       if (err.status === 200)
         Swal.fire({
