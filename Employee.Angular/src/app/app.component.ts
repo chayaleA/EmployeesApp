@@ -15,22 +15,6 @@ export class AppComponent implements OnInit {
 
   name: string;
 
-  // @HostListener('window:scroll', ['$event'])
-  // onScroll() {
-  //   let scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  //   let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 0;
-
-  //   if (scroll >= 70 && width >= 995) {
-  //     // Add styles for scroll
-  //   } else if (scroll == 0 && width >= 995) {
-  //     // Add styles for scroll back to top
-  //   } else if (scroll >= 70 && width < 995) {
-  //     // Add styles for scroll and small screen width
-  //   } else if (scroll == 0 && width < 995) {
-  //     // Add styles for scroll back to top and small screen width
-  //   }
-  // }
-
   constructor(private http: HttpClient) {
 
   }
