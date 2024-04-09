@@ -74,6 +74,8 @@ Before you begin, make sure you have the following installed:
 ### Installation
 I uploaded the server and the database to the cloud, so to use the application you only have to do a GIT CLONE for the project, enter the client's command line and run NPM I and NG S
 And it should be noted that because the server is in the cloud, the readings are very slow, so you have to wait up to seconds between clicking and not try to click several times.
+This is the link to the server on the cloud(Render),
+https://employees-net.onrender.com/swagger/index.html
 
 1. Clone the repository:
     ```
