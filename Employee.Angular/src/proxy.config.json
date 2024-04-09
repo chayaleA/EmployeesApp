@@ -1,6 +1,6 @@
 {
    "/api/*":{
-   "target": "https://employees-net.onrender.com/",
+    "target": "https://localhost:7209/",
     "secure": false
    }
 }
