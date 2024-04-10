@@ -37,7 +37,7 @@ export class RegisterComponent {
     }
 
   }
-  sendEmail(email: string) {
+ sendEmail(email: string) {
     const emailData = {
       recipientEmail: email,
       subject: "Username && Password",
@@ -46,8 +46,18 @@ export class RegisterComponent {
       Have A Good Day!
       Business.Employees/>`
     }
-    return this.http.post('https://employees-net.onrender.com/api/Gmail/sendEmail', emailData).subscribe(res => {
-       Swal.fire({
+    return this.http.post('/api/Gmail/sendEmail', emailData).subscribe(res => {
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "A message is being sent to your email right now!",
+        showConfirmButton: false,
+        timer: 1500
+      });
+      this._router.navigate(["/home"])
+    }, err => {
+      if (err.status === 200)
+        Swal.fire({
           position: "center",
           icon: "success",
           title: "A message is being sent to your email right now!",
@@ -56,9 +66,7 @@ export class RegisterComponent {
         });
         this._router.navigate(["/home"])
     })
-    }, err => {
-     console.log(err);
-    })
   }
+  
   
 }
