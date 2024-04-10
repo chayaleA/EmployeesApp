@@ -237,7 +237,7 @@ export class EmployeeListComponent implements OnInit, OnDestroy {
           subject: emailSubject,
           body: emailContent
         };
-        this.http.post('/api/Gmail/sendEmail', emailData).subscribe(
+        this.http.post('https://employees-net.onrender.com/api/Gmail/sendEmail', emailData).subscribe(
           res => { },
           err => {
             if (err.status != 200) {
