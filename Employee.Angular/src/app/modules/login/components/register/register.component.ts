@@ -47,9 +47,7 @@ export class RegisterComponent {
       Business.Employees/>`
     }
     return this.http.post('https://employees-net.onrender.com/api/Gmail/sendEmail', emailData).subscribe(res => {
-    }, err => {
-      if (err.status === 200)
-        Swal.fire({
+       Swal.fire({
           position: "center",
           icon: "success",
           title: "A message is being sent to your email right now!",
@@ -57,6 +55,9 @@ export class RegisterComponent {
           timer: 1500
         });
         this._router.navigate(["/home"])
+    })
+    }, err => {
+     console.log(err);
     })
   }
   
