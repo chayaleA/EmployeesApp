@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# BUSINESS Application
+# BUSINESS Application - https://employeessite.onrender.com/home
 ![home page](https://github.com/chayaleA/EmployeesApp/assets/150287616/16a5fd97-4355-4e17-92fb-ed3aea6fb0dc)
 
 <details>
@@ -72,6 +72,8 @@ Before you begin, make sure you have the following installed:
 - SQL Server. You can download and install the Developer edition.
 
 ### Installation
+You can enter here: https://employeessite.onrender.com/home the website in the cloud and just enjoy.
+
 I uploaded the server and the database to the cloud, so to use the application you only have to do a GIT CLONE for the project, enter the client's command line and run NPM I and NG S
 And it should be noted that because the server is in the cloud, the readings are very slow, so you have to wait up to seconds between clicking and not try to click several times.
 This is the link to the server on the cloud(Render),
