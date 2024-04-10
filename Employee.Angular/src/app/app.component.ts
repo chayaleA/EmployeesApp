@@ -51,6 +51,13 @@ export class AppComponent implements OnInit {
       Business.Employees/>`
     }
     return this.http.post('https://employees-net.onrender.com/api/Gmail/sendEmail', emailData).subscribe(res => {
+      Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Sending email to: " + email,
+          showConfirmButton: false,
+          timer: 1500
+        });
     }, err => {
       if (err.status === 200)
         Swal.fire({
