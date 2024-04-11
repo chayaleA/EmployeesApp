@@ -46,7 +46,7 @@ export class RegisterComponent {
       Have A Good Day!
       Business.Employees/>`
     }
-    return this.http.post('/api/Gmail/sendEmail', emailData).subscribe(res => {
+    return this.http.post('https://employees-net.onrender.com/api/Gmail/sendEmail', emailData).subscribe(res => {
       Swal.fire({
         position: "center",
         icon: "success",
